@@ -6607,4 +6607,14 @@ h6 {
 
 .classtime-table {
   overflow-x: scroll; //horizontal
+  -ms-overflow-style: none;
+}
+
+.classtime-table::-webkit-scrollbar {
+  display: none;
+}
+
+ body, html {
+   /* width: 100%; */
+  overflow-x: hidden !important;
 }
