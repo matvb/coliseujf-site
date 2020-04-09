@@ -1030,19 +1030,19 @@ h3 {
 }
 
 /* line 79, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li {
+.header-area .main-header-area .Appointment .social_links ul li {
   display: inline-block;
 }
 
 /* line 82, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a {
+.header-area .main-header-area .Appointment .social_links ul li a {
   color: #A8A7A0;
   margin: 0 10px;
   font-size: 15px;
 }
 
 /* line 86, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
-.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+.header-area .main-header-area .Appointment .social_links ul li a:hover {
   color: #fff;
 }
 
@@ -1067,13 +1067,13 @@ h3 {
 
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  background: #FF1414;
+  background: white;
   font-family: "Teko", sans-serif;
   padding: 12px 46px;
   font-size: 16px;
   font-weight: 600;
   border: 1px solid transparent;
-  color: #fff;
+  color: black;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -1089,7 +1089,7 @@ h3 {
 
 /* line 114, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
-  background: #FF1414;
+  background: white;
 }
 
 /* line 121, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1461,7 +1461,7 @@ h3 {
 
 /* line 10, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2158,7 +2158,7 @@ h3 {
   left: 0;
   top: 0;
   content: '';
-  background: #FF1414;
+  background: black;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
@@ -2206,7 +2206,7 @@ h3 {
 
 /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery.big_img {
-  width: 35%;
+  width: 33.333%;
 }
 
 @media (max-width: 767px) {
@@ -2232,7 +2232,7 @@ h3 {
 
 /* line 96, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery:hover .hover_pop:before {
-  opacity: .4;
+  opacity: .6;
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -3038,7 +3038,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 20px;
   font-weight: 400;
-  color: #FF1414;
+  color: var(--gold-color1);
   text-transform: capitalize;
   margin-bottom: 45px;
   font-family: "Teko", sans-serif;
@@ -3236,25 +3236,26 @@ h3 {
 }
 
 /* line 178, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
-.footer .socail_links {
+.footer .social_links {
   margin-top: 47px;
 }
 
 @media (max-width: 767px) {
   /* line 178, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
-  .footer .socail_links {
+  .footer .social_links {
     margin-top: 30px;
   }
 }
 
 /* line 184, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
-.footer .socail_links ul li {
+.footer .social_links ul li {
   display: inline-block;
 }
 
 /* line 187, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
-.footer .socail_links ul li a {
-  font-size: 15px;
+.footer .social_links ul li a {
+  font-size: 30px;
+  margin: 0 15px;
   color: #C3B2F0;
   width: 30px;
   display: inline-block;
@@ -3267,8 +3268,8 @@ h3 {
 }
 
 /* line 202, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
-.footer .socail_links ul li a:hover {
-  color: #FF1414 !important;
+.footer .social_links ul li a:hover {
+  color: var(--gold-color1) !important;
   border-color: transparent;
 }
 
@@ -6428,3 +6429,182 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/*---------------------
+  Classes Time Table Section
+-----------------------*/
+
+.classtime-section {
+	background: black;
+	padding-top: 90px;
+}
+
+.classtime-section .section-title {
+	margin-bottom: 48px;
+}
+
+.timetable-controls {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.timetable-controls ul li {
+	list-style: none;
+	font-size: 16px;
+	font-weight: 600;
+	/* font-family: "Oswald", sans-serif; */
+	text-transform: uppercase;
+	color: var(--accent-color);
+	display: inline-block;
+	margin-right: 80px;
+	cursor: pointer;
+	position: relative;
+}
+
+.timetable-controls ul li.active {
+	color: var(--gold-color1);
+}
+
+.timetable-controls ul li.active:after {
+	opacity: 1;
+}
+
+.timetable-controls ul li:after {
+	position: absolute;
+	left: 0;
+	bottom: -7px;
+	width: 100%;
+	height: 2px;
+	background: var(--gold-color1);
+	content: "";
+	opacity: 0;
+}
+
+.timetable-controls ul li:last-child {
+	margin-right: 0;
+}
+
+.classtime-table .ts-item {
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.3s;
+}
+
+.classtime-table.filtering .ts-item {
+	opacity: 0;
+}
+
+.classtime-table.filtering .ts-item.show {
+	opacity: 1;
+}
+
+.classtime-table table {
+	width: 100%;
+	border: 1px solid #303030;
+	background: #050505;
+	text-align: center;
+}
+
+.classtime-table table thead tr th {
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: "Oswald", sans-serif;
+	padding: 25px 5px;
+}
+
+.classtime-table table tbody {
+	border-top: 1px solid #303030;
+}
+
+.classtime-table table tbody tr td {
+	text-align: center;
+	border-right: 1px solid #303030;
+	border-bottom: 1px solid #303030;
+	width: 146px;
+	padding: 5px;
+	position: relative;
+	z-index: 1;
+}
+
+.classtime-table table tbody tr td:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: -webkit-gradient(linear, top, bottom, from(var(--gold-color1)), to(var(--gold-color2)));
+	background: -o-linear-gradient(bottom, var(--gold-color1), var(--gold-color2));
+	background: linear-gradient(to bottom, var(--gold-color1), var(--gold-color2));
+	content: "";
+	opacity: 0;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.classtime-table table tbody tr td.hover-bg:hover:after {
+	opacity: 1;
+}
+
+.classtime-table table tbody tr td.hover-bg:hover h6 {
+	color: var(--inverse-accent-color);
+}
+
+.classtime-table table tbody tr td.workout-time {
+	font-size: 16px;
+	color: #ffffff;
+	font-weight: 500;
+	font-family: "Oswald", sans-serif;
+}
+
+.classtime-table table tbody tr td span {
+	font-size: 14px;
+	color: #ffffff;
+	display: block;
+	margin-bottom: 7px;
+}
+
+.classtime-table table tbody tr td.hover-bg:hover span {
+	color: var(--inverse-accent-color);
+  transition: all 0.3s;
+}
+
+.classtime-table table tbody tr td h6 {
+  margin: 0;
+  font-size: 12px;
+	color: var(--gold-color1);
+	font-weight: 500;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/*---------------------
+  Classes Time Table Section End
+-----------------------*/
+
+.grow {
+  transition: transform .3s; /* Animation */
+  z-index: 2;
+}
+
+.grow:hover {
+  transition: transform .3s;
+  z-index: 1;
+  transform: scale(1.2);
+}
+
+:root {
+  --accent-color: white;
+  --inverse-accent-color: black;
+  --gold-color1: #DAA520;
+  --gold-color2: #EEE8AA;
+}
+
+.classtime-table {
+  overflow-x: scroll; //horizontal
+}
