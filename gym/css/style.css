@@ -1169,7 +1169,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #FF1414;
+  background: var(--accent-color);
   width: 100%;
   height: 3px;
   bottom: -33px;
@@ -1190,7 +1190,7 @@ h3 {
 
 /* line 182, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #FF1414;
+  color: var(--accent-color);
 }
 
 /* line 184, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1201,7 +1201,7 @@ h3 {
 
 /* line 189, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #FF1414;
+  color: var(--accent-color);
 }
 
 /* line 193, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1331,7 +1331,7 @@ h3 {
 .header-area .main-header-area.sticky ul li a::before {
   position: absolute;
   content: "";
-  background: #FF1414;
+  background: var(--accent-color);
   width: 100%;
   height: 3px;
   bottom: -27px;
@@ -6612,6 +6612,8 @@ h6 {
   z-index: 1;
   transform: scale(1.2);
 }
+
+html{scroll-behavior:smooth}
 
 :root {
   --accent-color: white;
