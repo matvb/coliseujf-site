@@ -6475,9 +6475,24 @@ h6 {
 	bottom: -7px;
 	width: 100%;
 	height: 2px;
-	background: var(--gold-color1);
 	content: "";
 	opacity: 0;
+}
+
+.timetable-controls ul li[data-tsfilter="lutas"]:after {
+	background: #FA8072;
+}
+.timetable-controls ul li[data-tsfilter="neuromuscular"]:after {
+	background: #85C1E9;
+}
+.timetable-controls ul li[data-tsfilter="all"]:after {
+	background: white;
+}
+.timetable-controls ul li[data-tsfilter="ginasticas"]:after {
+	background: var(--gold-color1);
+}
+.timetable-controls ul li[data-tsfilter="dança"]:after {
+	background: #D3D3D3;
 }
 
 .timetable-controls ul li:last-child {
