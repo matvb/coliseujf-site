@@ -6632,3 +6632,13 @@ h6 {
   color: white;
   font-size: 32px;
 }
+
+td.hover-bg:not(:hover)[data-tsmeta="lutas"] > h6 {
+  color: #FA8072 !important;
+}
+td.hover-bg:not(:hover)[data-tsmeta="neuromuscular"] > h6 {
+  color: #85C1E9 !important;
+}
+td.hover-bg:not(:hover)[data-tsmeta="dança"] > h6 {
+  color: 	#D3D3D3 !important;
+}
