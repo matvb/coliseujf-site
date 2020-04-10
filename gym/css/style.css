@@ -2167,7 +2167,7 @@ h3 {
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  z-index: 8;
+  z-index: -1;
   opacity: 0;
 }
 
@@ -6617,4 +6617,18 @@ h6 {
  body, html {
    /* width: 100%; */
   overflow-x: hidden !important;
+}
+
+.appear-on-hover {
+  opacity: 0;
+}
+
+.single_gallery:hover .appear-on-hover {
+  opacity: 1;
+  z-index: 9;
+}
+
+.gallery-title {
+  color: white;
+  font-size: 32px;
 }
