@@ -3232,7 +3232,7 @@ h3 {
 
 /* line 173, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #FF1414;
+  color: var(--gold-color1);
 }
 
 /* line 178, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
