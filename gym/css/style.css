@@ -6622,6 +6622,11 @@ html{scroll-behavior:smooth}
   --gold-color2: #EEE8AA;
 }
 
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
 ::-moz-selection { /* Code for Firefox */
   color: black;
   background: var(--gold-color1);
