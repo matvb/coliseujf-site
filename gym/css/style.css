@@ -6622,6 +6622,16 @@ html{scroll-behavior:smooth}
   --gold-color2: #EEE8AA;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: var(--gold-color1);
+}
+
+::selection {
+  color: black;
+  background: var(--gold-color1);
+}
+
 .classtime-table {
   overflow-x: scroll; //horizontal
   -ms-overflow-style: none;
